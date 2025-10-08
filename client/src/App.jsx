@@ -1,7 +1,9 @@
 
 import './App.css'
 import AcademyProgress from './components/AcademyProgress'
-import Courses from './components/Courses'
+import Facilities from './components/Facilities'
+import GetKnow from './components/GetKnow'
+// import Courses from './components/Courses'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 
@@ -12,7 +14,9 @@ function App() {
     <Navbar />
     <Hero/>
     <AcademyProgress />
-    <Courses />
+    {/* <Courses /> */}
+    <GetKnow />
+    <Facilities />
     </>
   )
 }

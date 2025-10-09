@@ -1,11 +1,711 @@
-import React from 'react'
+import React from "react";
 
 const Team = () => {
   return (
     <div>
-      <div id="our-team"><div class="w-full h-full lg:h-screen flex flex-col items-center justify-center bg-gray-100 p-8"><h2 class="text-5xl font-bold pt-5 mb-8 text-gray-800">Our Team</h2><div class="swiper swiper-initialized swiper-horizontal w-full max-w-[1400px]"><div class="swiper-wrapper"><div class="swiper-slide swiper-slide-active" style="width: 350px;"><div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto"><a href="/profile/talha" data-discover="true"><div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500"><div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden"><img alt="Muhammad Talha" class="w-full h-full object-cover rounded-full" src="/assets/ceo2-B3ao-Bph.png"/></div><h3 class="text-xl font-semibold mt-4 flex flex-col items-center"><div class="text-lg text-gray-800">Muhammad Talha</div><div class="text-sm text-blue-400">Managing Director and AI Trainer</div></h3><ul class="list-none text-xs text-gray-600 w-full px-2"><li class="flex items-center justify-center">Software Engineer with expertise in AI and Django and serves as the CEO of Tech Pioneers.</li></ul></div></a><div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500"><h3 class="text-xl font-bold text-white mb-4">Muhammad Talha</h3><a href="/profile/talha" data-discover="true"><button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">View Profile</button></a></div></div></div><div class="swiper-slide swiper-slide-next" style="width: 350px;"><div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto"><a href="/profile/alishba" data-discover="true"><div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500"><div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden"><img alt="Elishbah Babar" class="w-full h-full object-cover rounded-full" src="/assets/alishba-DCY6QwgX.png"/></div><h3 class="text-xl font-semibold mt-4 flex flex-col items-center"><div class="text-lg text-gray-800">Elishbah Babar</div><div class="text-sm text-blue-400">HR Lead</div></h3><ul class="list-none text-xs text-gray-600 w-full px-2"><li class="flex items-center justify-center">Management Lead at MLS and Women Tech Lead at GDSC, ICUP.</li></ul></div></a><div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500"><h3 class="text-xl font-bold text-white mb-4">Elishbah Babar</h3><a href="/profile/alishba" data-discover="true"><button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">View Profile</button></a></div></div></div><div class="swiper-slide" style="width: 350px;"><div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto"><a href="/profile/danish" data-discover="true"><div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500"><div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden"><img alt="M. Danish Zahid" class="w-full h-full object-cover rounded-full" src="/assets/danish-DumhOIn3.jpg"/></div><h3 class="text-xl font-semibold mt-4 flex flex-col items-center"><div class="text-lg text-gray-800">M. Danish Zahid</div><div class="text-sm text-blue-400">Social Media Marketing Lead and Project Manager</div></h3><ul class="list-none text-xs text-gray-600 w-full px-2"><li class="flex items-center justify-center">B.S. in Software Engineering</li><li class="flex items-center justify-center">Former Social Media &amp; Project Manager at TechPioneers</li><li class="flex items-center justify-center">Leads his own brand 'Peshawari Chappal'</li></ul></div></a><div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500"><h3 class="text-xl font-bold text-white mb-4">M. Danish Zahid</h3><a href="/profile/danish" data-discover="true"><button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">View Profile</button></a></div></div></div><div class="swiper-slide" style="width: 350px;"><div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto"><a href="/profile/ali-akbar" data-discover="true"><div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500"><div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden"><img alt="Ali Akbar " class="w-full h-full object-cover rounded-full" src="/assets/ali2-WUC85PTa.png"/></div><h3 class="text-xl font-semibold mt-4 flex flex-col items-center"><div class="text-lg text-gray-800">Ali Akbar </div><div class="text-sm text-blue-400">Web Dev Lead</div></h3><ul class="list-none text-xs text-gray-600 w-full px-2"><li class="flex items-center justify-center">Experience: 4 years in Full stack, full-stack applications :Education: Graduate of Islamia University (2024)</li></ul></div></a><div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500"><h3 class="text-xl font-bold text-white mb-4">Ali Akbar </h3><a href="/profile/ali-akbar" data-discover="true"><button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">View Profile</button></a></div></div></div><div class="swiper-slide" style="width: 350px;"><div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto"><a href="/profile/aqib" data-discover="true"><div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500"><div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden"><img alt="Muhammad Aqib" class="w-full h-full object-cover rounded-full" src="/assets/Aqib-BpdkA70o.png"/></div><h3 class="text-xl font-semibold mt-4 flex flex-col items-center"><div class="text-lg text-gray-800">Muhammad Aqib</div><div class="text-sm text-blue-400">Web Mentor</div></h3><ul class="list-none text-xs text-gray-600 w-full px-2"><li class="flex items-center justify-center">4 years using Vue, Nuxt, Node, and React Focus: Building innovative, sustainable solutions with evolving tech trends</li></ul></div></a><div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500"><h3 class="text-xl font-bold text-white mb-4">Muhammad Aqib</h3><a href="/profile/aqib" data-discover="true"><button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">View Profile</button></a></div></div></div><div class="swiper-slide" style="width: 350px;"><div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto"><a href="/profile/anees" data-discover="true"><div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500"><div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden"><img alt="Anees" class="w-full h-full object-cover rounded-full" src="/assets/anees-DWGXjT3F.png"/></div><h3 class="text-xl font-semibold mt-4 flex flex-col items-center"><div class="text-lg text-gray-800">Anees</div><div class="text-sm text-blue-400">Web Mentor</div></h3><ul class="list-none text-xs text-gray-600 w-full px-2"><li class="flex items-center justify-center">Senior MERN stack developer having experience of 3+ year .My strong zone is Frontend</li></ul></div></a><div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500"><h3 class="text-xl font-bold text-white mb-4">Anees</h3><a href="/profile/anees" data-discover="true"><button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">View Profile</button></a></div></div></div><div class="swiper-slide" style="width: 350px;"><div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto"><a href="/profile/umair" data-discover="true"><div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500"><div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden"><img alt="Umair Marwat" class="w-full h-full object-cover rounded-full" src="/assets/uamir-CQ7A2Kh_.jpg"/></div><h3 class="text-xl font-semibold mt-4 flex flex-col items-center"><div class="text-lg text-gray-800">Umair Marwat</div><div class="text-sm text-blue-400"> Web Dev Mentor</div></h3><ul class="list-none text-xs text-gray-600 w-full px-2"><li class="flex items-center justify-center">3+ years in full-stack development</li><li class="flex items-center justify-center">Education: BSSE from ICP</li></ul></div></a><div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500"><h3 class="text-xl font-bold text-white mb-4">Umair Marwat</h3><a href="/profile/umair" data-discover="true"><button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">View Profile</button></a></div></div></div><div class="swiper-slide" style="width: 350px;"><div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto"><a href="/profile/awais" data-discover="true"><div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500"><div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden"><img alt="Awais" class="w-full h-full object-cover rounded-full" src="/assets/awais-Dz2Pose6.jpg"/></div><h3 class="text-xl font-semibold mt-4 flex flex-col items-center"><div class="text-lg text-gray-800">Awais</div><div class="text-sm text-blue-400">App Dev Mentor</div></h3><ul class="list-none text-xs text-gray-600 w-full px-2"><li class="flex items-center justify-center">skilled Flutter developer, Dart programming, and UI/UX designing.</li></ul></div></a><div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500"><h3 class="text-xl font-bold text-white mb-4">Awais</h3><a href="/profile/awais" data-discover="true"><button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">View Profile</button></a></div></div></div><div class="swiper-slide" style="width: 350px;"><div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto"><a href="/profile/asad" data-discover="true"><div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500"><div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden"><img alt="Asad Khan Qureshi" class="w-full h-full object-cover rounded-full" src="/assets/asad-CU-xMn1j.png"/></div><h3 class="text-xl font-semibold mt-4 flex flex-col items-center"><div class="text-lg text-gray-800">Asad Khan Qureshi</div><div class="text-sm text-blue-400">App Dev Trainer</div></h3><ul class="list-none text-xs text-gray-600 w-full px-2"><li class="flex items-center justify-center">Experience in mobile app development more than 6 months in Flutter</li></ul></div></a><div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500"><h3 class="text-xl font-bold text-white mb-4">Asad Khan Qureshi</h3><a href="/profile/asad" data-discover="true"><button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">View Profile</button></a></div></div></div><div class="swiper-slide" style="width: 350px;"><div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto"><a href="/profile/gohar" data-discover="true"><div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500"><div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden"><img alt="Gohar Zaman" class="w-full h-full object-cover rounded-full" src="/assets/gohar-B-vDV0dG.png"/></div><h3 class="text-xl font-semibold mt-4 flex flex-col items-center"><div class="text-lg text-gray-800">Gohar Zaman</div><div class="text-sm text-blue-400">E-commerce Lead</div></h3><ul class="list-none text-xs text-gray-600 w-full px-2"><li class="flex items-center justify-center">Over 2 years of experience in e-commerce, specializing in Amazon Education: Master’s degree from Abdul Wali Khan University Mardan  Computer Science</li></ul></div></a><div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500"><h3 class="text-xl font-bold text-white mb-4">Gohar Zaman</h3><a href="/profile/gohar" data-discover="true"><button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">View Profile</button></a></div></div></div><div class="swiper-slide" style="width: 350px;"><div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto"><a href="/profile/sulaiman" data-discover="true"><div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500"><div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden"><img alt="Sulaiman Akhtar" class="w-full h-full object-cover rounded-full" src="/assets/suliman-DjNRNcyx.png"/></div><h3 class="text-xl font-semibold mt-4 flex flex-col items-center"><div class="text-lg text-gray-800">Sulaiman Akhtar</div><div class="text-sm text-blue-400">Graphic Designing and UI/UX Designing</div></h3><ul class="list-none text-xs text-gray-600 w-full px-2"><li class="flex items-center justify-center">Experience: 3+ years in UI/UX design Education: BSCS (1st Semester) </li></ul></div></a><div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500"><h3 class="text-xl font-bold text-white mb-4">Sulaiman Akhtar</h3><a href="/profile/sulaiman" data-discover="true"><button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">View Profile</button></a></div></div></div><div class="swiper-slide" style="width: 350px;"><div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto"><a href="/profile/shayan" data-discover="true"><div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500"><div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden"><img alt="Shayan Ahmad" class="w-full h-full object-cover rounded-full" src="/assets/shayan-BPyTnSiE.png"/></div><h3 class="text-xl font-semibold mt-4 flex flex-col items-center"><div class="text-lg text-gray-800">Shayan Ahmad</div><div class="text-sm text-blue-400">Frontend Developer</div></h3><ul class="list-none text-xs text-gray-600 w-full px-2"><li class="flex items-center justify-center">MERN stack with Next.js, 1+ years of frontend experience Current Position: Frontend Engineer at Culyte Software House</li></ul></div></a><div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500"><h3 class="text-xl font-bold text-white mb-4">Shayan Ahmad</h3><a href="/profile/shayan" data-discover="true"><button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">View Profile</button></a></div></div></div><div class="swiper-slide" style="width: 350px;"><div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto"><a href="/profile/yaseen" data-discover="true"><div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500"><div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden"><img alt="Yaseen Khan" class="w-full h-full object-cover rounded-full" src="/assets/yassen-LH9CUj8b.png"/></div><h3 class="text-xl font-semibold mt-4 flex flex-col items-center"><div class="text-lg text-gray-800">Yaseen Khan</div><div class="text-sm text-blue-400">Backend Developer</div></h3><ul class="list-none text-xs text-gray-600 w-full px-2"><li class="flex items-center justify-center">Experience: 2+ year in Backend Development.</li><li class="flex items-center justify-center">Current Position: Remote Job</li><li class="flex items-center justify-center">Education: Islamia College, Peshawar (5th Semester)</li></ul></div></a><div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500"><h3 class="text-xl font-bold text-white mb-4">Yaseen Khan</h3><a href="/profile/yaseen" data-discover="true"><button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">View Profile</button></a></div></div></div><div class="swiper-slide" style="width: 350px;"><div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto"><a href="/profile/sameer" data-discover="true"><div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500"><div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden"><img alt="Sameer Nawab" class="w-full h-full object-cover rounded-full" src="/assets/sammer-rm_lTSNX.png"/></div><h3 class="text-xl font-semibold mt-4 flex flex-col items-center"><div class="text-lg text-gray-800">Sameer Nawab</div><div class="text-sm text-blue-400">Web Designer</div></h3><ul class="list-none text-xs text-gray-600 w-full px-2"><li class="flex items-center justify-center">Experience: 1+ years in Web design</li><li class="flex items-center justify-center">Current Position: Remote Job</li><li class="flex items-center justify-center">Education: Software Engineering</li></ul></div></a><div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500"><h3 class="text-xl font-bold text-white mb-4">Sameer Nawab</h3><a href="/profile/sameer" data-discover="true"><button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">View Profile</button></a></div></div></div><div class="swiper-slide" style="width: 350px;"><div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto"><a href="/profile/ahmad" data-discover="true"><div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500"><div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden"><img alt="Ahmad Hussain" class="w-full h-full object-cover rounded-full" src="/assets/ahmad-BJz08TUi.jpg"/></div><h3 class="text-xl font-semibold mt-4 flex flex-col items-center"><div class="text-lg text-gray-800">Ahmad Hussain</div><div class="text-sm text-blue-400">Social Media Manager</div></h3><ul class="list-none text-xs text-gray-600 w-full px-2"><li class="flex items-center justify-center">Experience: 1+ year in Social Media Management</li><li class="flex items-center justify-center">Current Position: Social Media Manager at Tech Pioneers</li></ul></div></a><div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500"><h3 class="text-xl font-bold text-white mb-4">Ahmad Hussain</h3><a href="/profile/ahmad" data-discover="true"><button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">View Profile</button></a></div></div></div><div class="swiper-slide" style="width: 350px;"><div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto"><a href="/profile/eman" data-discover="true"><div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500"><div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden"><img alt="Eman Gul" class="w-full h-full object-cover rounded-full" src="/assets/eman-CjFCbqqH.jpg"/></div><h3 class="text-xl font-semibold mt-4 flex flex-col items-center"><div class="text-lg text-gray-800">Eman Gul</div><div class="text-sm text-blue-400">Junior HR </div></h3><ul class="list-none text-xs text-gray-600 w-full px-2"><li class="flex items-center justify-center">Experience: 1+ year in HR</li><li class="flex items-center justify-center">Currunt position: Junior HR at Tech Pioneers</li></ul></div></a><div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500"><h3 class="text-xl font-bold text-white mb-4">Eman Gul</h3><a href="/profile/eman" data-discover="true"><button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">View Profile</button></a></div></div></div><div class="swiper-slide" style="width: 350px;"><div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto"><a href="/profile/saba" data-discover="true"><div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500"><div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden"><img alt="Saba Gul" class="w-full h-full object-cover rounded-full" src="/assets/saba-DoVsE90v.jpg"/></div><h3 class="text-xl font-semibold mt-4 flex flex-col items-center"><div class="text-lg text-gray-800">Saba Gul</div><div class="text-sm text-blue-400">Admission Officer</div></h3><ul class="list-none text-xs text-gray-600 w-full px-2"><li class="flex items-center justify-center">Experience: 1+ year in Admission</li><li class="flex items-center justify-center">Currunt position: Admission Officer at Tech Pioneers</li></ul></div></a><div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500"><h3 class="text-xl font-bold text-white mb-4">Saba Gul</h3><a href="/profile/saba" data-discover="true"><button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">View Profile</button></a></div></div></div><div class="swiper-slide" style="width: 350px;"><div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto"><a href="/profile/fatimaintern" data-discover="true"><div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500"><div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden"><img alt="Fatima " class="w-full h-full object-cover rounded-full" src="/assets/fatimaintern-BkJTgm5K.jpg"/></div><h3 class="text-xl font-semibold mt-4 flex flex-col items-center"><div class="text-lg text-gray-800">Fatima </div><div class="text-sm text-blue-400">social media manager Intern</div></h3><ul class="list-none text-xs text-gray-600 w-full px-2"><li class="flex items-center justify-center">Experience: 6 months in Social Media Management</li><li class="flex items-center justify-center">Current Position: Social Media Manager Intern at Tech Pioneers</li></ul></div></a><div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500"><h3 class="text-xl font-bold text-white mb-4">Fatima </h3><a href="/profile/fatimaintern" data-discover="true"><button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">View Profile</button></a></div></div></div></div><div class="swiper-button-prev swiper-button-disabled"></div><div class="swiper-button-next"></div><div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div></div></div></div>
+      <div id="our-team">
+        <div class="w-full h-full lg:h-screen flex flex-col items-center justify-center bg-gray-100 p-8">
+          <h2 class="text-5xl font-bold pt-5 mb-8 text-gray-800">Our Team</h2>
+          <div class="swiper swiper-initialized swiper-horizontal w-full max-w-[1400px]">
+            <div class="swiper-wrapper">
+              <div
+                class="swiper-slide swiper-slide-active"
+                style="width: 350px;"
+              >
+                <div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto">
+                  <a href="/profile/talha" data-discover="true">
+                    <div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500">
+                      <div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden">
+                        <img
+                          alt="Muhammad Talha"
+                          class="w-full h-full object-cover rounded-full"
+                          src="/assets/ceo2-B3ao-Bph.png"
+                        />
+                      </div>
+                      <h3 class="text-xl font-semibold mt-4 flex flex-col items-center">
+                        <div class="text-lg text-gray-800">Muhammad Talha</div>
+                        <div class="text-sm text-blue-400">
+                          Managing Director and AI Trainer
+                        </div>
+                      </h3>
+                      <ul class="list-none text-xs text-gray-600 w-full px-2">
+                        <li class="flex items-center justify-center">
+                          Software Engineer with expertise in AI and Django and
+                          serves as the CEO of Tech Pioneers.
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                  <div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500">
+                    <h3 class="text-xl font-bold text-white mb-4">
+                      Muhammad Talha
+                    </h3>
+                    <a href="/profile/talha" data-discover="true">
+                      <button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">
+                        View Profile
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-next" style="width: 350px;">
+                <div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto">
+                  <a href="/profile/alishba" data-discover="true">
+                    <div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500">
+                      <div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden">
+                        <img
+                          alt="Elishbah Babar"
+                          class="w-full h-full object-cover rounded-full"
+                          src="/assets/alishba-DCY6QwgX.png"
+                        />
+                      </div>
+                      <h3 class="text-xl font-semibold mt-4 flex flex-col items-center">
+                        <div class="text-lg text-gray-800">Elishbah Babar</div>
+                        <div class="text-sm text-blue-400">HR Lead</div>
+                      </h3>
+                      <ul class="list-none text-xs text-gray-600 w-full px-2">
+                        <li class="flex items-center justify-center">
+                          Management Lead at MLS and Women Tech Lead at GDSC,
+                          ICUP.
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                  <div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500">
+                    <h3 class="text-xl font-bold text-white mb-4">
+                      Elishbah Babar
+                    </h3>
+                    <a href="/profile/alishba" data-discover="true">
+                      <button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">
+                        View Profile
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style="width: 350px;">
+                <div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto">
+                  <a href="/profile/danish" data-discover="true">
+                    <div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500">
+                      <div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden">
+                        <img
+                          alt="M. Danish Zahid"
+                          class="w-full h-full object-cover rounded-full"
+                          src="/assets/danish-DumhOIn3.jpg"
+                        />
+                      </div>
+                      <h3 class="text-xl font-semibold mt-4 flex flex-col items-center">
+                        <div class="text-lg text-gray-800">M. Danish Zahid</div>
+                        <div class="text-sm text-blue-400">
+                          Social Media Marketing Lead and Project Manager
+                        </div>
+                      </h3>
+                      <ul class="list-none text-xs text-gray-600 w-full px-2">
+                        <li class="flex items-center justify-center">
+                          B.S. in Software Engineering
+                        </li>
+                        <li class="flex items-center justify-center">
+                          Former Social Media &amp; Project Manager at
+                          TechPioneers
+                        </li>
+                        <li class="flex items-center justify-center">
+                          Leads his own brand 'Peshawari Chappal'
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                  <div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500">
+                    <h3 class="text-xl font-bold text-white mb-4">
+                      M. Danish Zahid
+                    </h3>
+                    <a href="/profile/danish" data-discover="true">
+                      <button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">
+                        View Profile
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style="width: 350px;">
+                <div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto">
+                  <a href="/profile/ali-akbar" data-discover="true">
+                    <div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500">
+                      <div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden">
+                        <img
+                          alt="Ali Akbar "
+                          class="w-full h-full object-cover rounded-full"
+                          src="/assets/ali2-WUC85PTa.png"
+                        />
+                      </div>
+                      <h3 class="text-xl font-semibold mt-4 flex flex-col items-center">
+                        <div class="text-lg text-gray-800">Ali Akbar </div>
+                        <div class="text-sm text-blue-400">Web Dev Lead</div>
+                      </h3>
+                      <ul class="list-none text-xs text-gray-600 w-full px-2">
+                        <li class="flex items-center justify-center">
+                          Experience: 4 years in Full stack, full-stack
+                          applications :Education: Graduate of Islamia
+                          University (2024)
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                  <div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500">
+                    <h3 class="text-xl font-bold text-white mb-4">
+                      Ali Akbar{" "}
+                    </h3>
+                    <a href="/profile/ali-akbar" data-discover="true">
+                      <button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">
+                        View Profile
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style="width: 350px;">
+                <div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto">
+                  <a href="/profile/aqib" data-discover="true">
+                    <div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500">
+                      <div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden">
+                        <img
+                          alt="Muhammad Aqib"
+                          class="w-full h-full object-cover rounded-full"
+                          src="/assets/Aqib-BpdkA70o.png"
+                        />
+                      </div>
+                      <h3 class="text-xl font-semibold mt-4 flex flex-col items-center">
+                        <div class="text-lg text-gray-800">Muhammad Aqib</div>
+                        <div class="text-sm text-blue-400">Web Mentor</div>
+                      </h3>
+                      <ul class="list-none text-xs text-gray-600 w-full px-2">
+                        <li class="flex items-center justify-center">
+                          4 years using Vue, Nuxt, Node, and React Focus:
+                          Building innovative, sustainable solutions with
+                          evolving tech trends
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                  <div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500">
+                    <h3 class="text-xl font-bold text-white mb-4">
+                      Muhammad Aqib
+                    </h3>
+                    <a href="/profile/aqib" data-discover="true">
+                      <button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">
+                        View Profile
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style="width: 350px;">
+                <div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto">
+                  <a href="/profile/anees" data-discover="true">
+                    <div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500">
+                      <div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden">
+                        <img
+                          alt="Anees"
+                          class="w-full h-full object-cover rounded-full"
+                          src="/assets/anees-DWGXjT3F.png"
+                        />
+                      </div>
+                      <h3 class="text-xl font-semibold mt-4 flex flex-col items-center">
+                        <div class="text-lg text-gray-800">Anees</div>
+                        <div class="text-sm text-blue-400">Web Mentor</div>
+                      </h3>
+                      <ul class="list-none text-xs text-gray-600 w-full px-2">
+                        <li class="flex items-center justify-center">
+                          Senior MERN stack developer having experience of 3+
+                          year .My strong zone is Frontend
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                  <div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500">
+                    <h3 class="text-xl font-bold text-white mb-4">Anees</h3>
+                    <a href="/profile/anees" data-discover="true">
+                      <button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">
+                        View Profile
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style="width: 350px;">
+                <div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto">
+                  <a href="/profile/umair" data-discover="true">
+                    <div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500">
+                      <div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden">
+                        <img
+                          alt="Umair Marwat"
+                          class="w-full h-full object-cover rounded-full"
+                          src="/assets/uamir-CQ7A2Kh_.jpg"
+                        />
+                      </div>
+                      <h3 class="text-xl font-semibold mt-4 flex flex-col items-center">
+                        <div class="text-lg text-gray-800">Umair Marwat</div>
+                        <div class="text-sm text-blue-400"> Web Dev Mentor</div>
+                      </h3>
+                      <ul class="list-none text-xs text-gray-600 w-full px-2">
+                        <li class="flex items-center justify-center">
+                          3+ years in full-stack development
+                        </li>
+                        <li class="flex items-center justify-center">
+                          Education: BSSE from ICP
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                  <div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500">
+                    <h3 class="text-xl font-bold text-white mb-4">
+                      Umair Marwat
+                    </h3>
+                    <a href="/profile/umair" data-discover="true">
+                      <button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">
+                        View Profile
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style="width: 350px;">
+                <div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto">
+                  <a href="/profile/awais" data-discover="true">
+                    <div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500">
+                      <div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden">
+                        <img
+                          alt="Awais"
+                          class="w-full h-full object-cover rounded-full"
+                          src="/assets/awais-Dz2Pose6.jpg"
+                        />
+                      </div>
+                      <h3 class="text-xl font-semibold mt-4 flex flex-col items-center">
+                        <div class="text-lg text-gray-800">Awais</div>
+                        <div class="text-sm text-blue-400">App Dev Mentor</div>
+                      </h3>
+                      <ul class="list-none text-xs text-gray-600 w-full px-2">
+                        <li class="flex items-center justify-center">
+                          skilled Flutter developer, Dart programming, and UI/UX
+                          designing.
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                  <div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500">
+                    <h3 class="text-xl font-bold text-white mb-4">Awais</h3>
+                    <a href="/profile/awais" data-discover="true">
+                      <button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">
+                        View Profile
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style="width: 350px;">
+                <div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto">
+                  <a href="/profile/asad" data-discover="true">
+                    <div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500">
+                      <div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden">
+                        <img
+                          alt="Asad Khan Qureshi"
+                          class="w-full h-full object-cover rounded-full"
+                          src="/assets/asad-CU-xMn1j.png"
+                        />
+                      </div>
+                      <h3 class="text-xl font-semibold mt-4 flex flex-col items-center">
+                        <div class="text-lg text-gray-800">
+                          Asad Khan Qureshi
+                        </div>
+                        <div class="text-sm text-blue-400">App Dev Trainer</div>
+                      </h3>
+                      <ul class="list-none text-xs text-gray-600 w-full px-2">
+                        <li class="flex items-center justify-center">
+                          Experience in mobile app development more than 6
+                          months in Flutter
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                  <div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500">
+                    <h3 class="text-xl font-bold text-white mb-4">
+                      Asad Khan Qureshi
+                    </h3>
+                    <a href="/profile/asad" data-discover="true">
+                      <button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">
+                        View Profile
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style="width: 350px;">
+                <div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto">
+                  <a href="/profile/gohar" data-discover="true">
+                    <div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500">
+                      <div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden">
+                        <img
+                          alt="Gohar Zaman"
+                          class="w-full h-full object-cover rounded-full"
+                          src="/assets/gohar-B-vDV0dG.png"
+                        />
+                      </div>
+                      <h3 class="text-xl font-semibold mt-4 flex flex-col items-center">
+                        <div class="text-lg text-gray-800">Gohar Zaman</div>
+                        <div class="text-sm text-blue-400">E-commerce Lead</div>
+                      </h3>
+                      <ul class="list-none text-xs text-gray-600 w-full px-2">
+                        <li class="flex items-center justify-center">
+                          Over 2 years of experience in e-commerce, specializing
+                          in Amazon Education: Master’s degree from Abdul Wali
+                          Khan University Mardan Computer Science
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                  <div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500">
+                    <h3 class="text-xl font-bold text-white mb-4">
+                      Gohar Zaman
+                    </h3>
+                    <a href="/profile/gohar" data-discover="true">
+                      <button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">
+                        View Profile
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style="width: 350px;">
+                <div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto">
+                  <a href="/profile/sulaiman" data-discover="true">
+                    <div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500">
+                      <div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden">
+                        <img
+                          alt="Sulaiman Akhtar"
+                          class="w-full h-full object-cover rounded-full"
+                          src="/assets/suliman-DjNRNcyx.png"
+                        />
+                      </div>
+                      <h3 class="text-xl font-semibold mt-4 flex flex-col items-center">
+                        <div class="text-lg text-gray-800">Sulaiman Akhtar</div>
+                        <div class="text-sm text-blue-400">
+                          Graphic Designing and UI/UX Designing
+                        </div>
+                      </h3>
+                      <ul class="list-none text-xs text-gray-600 w-full px-2">
+                        <li class="flex items-center justify-center">
+                          Experience: 3+ years in UI/UX design Education: BSCS
+                          (1st Semester){" "}
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                  <div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500">
+                    <h3 class="text-xl font-bold text-white mb-4">
+                      Sulaiman Akhtar
+                    </h3>
+                    <a href="/profile/sulaiman" data-discover="true">
+                      <button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">
+                        View Profile
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style="width: 350px;">
+                <div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto">
+                  <a href="/profile/shayan" data-discover="true">
+                    <div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500">
+                      <div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden">
+                        <img
+                          alt="Shayan Ahmad"
+                          class="w-full h-full object-cover rounded-full"
+                          src="/assets/shayan-BPyTnSiE.png"
+                        />
+                      </div>
+                      <h3 class="text-xl font-semibold mt-4 flex flex-col items-center">
+                        <div class="text-lg text-gray-800">Shayan Ahmad</div>
+                        <div class="text-sm text-blue-400">
+                          Frontend Developer
+                        </div>
+                      </h3>
+                      <ul class="list-none text-xs text-gray-600 w-full px-2">
+                        <li class="flex items-center justify-center">
+                          MERN stack with Next.js, 1+ years of frontend
+                          experience Current Position: Frontend Engineer at
+                          Culyte Software House
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                  <div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500">
+                    <h3 class="text-xl font-bold text-white mb-4">
+                      Shayan Ahmad
+                    </h3>
+                    <a href="/profile/shayan" data-discover="true">
+                      <button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">
+                        View Profile
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style="width: 350px;">
+                <div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto">
+                  <a href="/profile/yaseen" data-discover="true">
+                    <div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500">
+                      <div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden">
+                        <img
+                          alt="Yaseen Khan"
+                          class="w-full h-full object-cover rounded-full"
+                          src="/assets/yassen-LH9CUj8b.png"
+                        />
+                      </div>
+                      <h3 class="text-xl font-semibold mt-4 flex flex-col items-center">
+                        <div class="text-lg text-gray-800">Yaseen Khan</div>
+                        <div class="text-sm text-blue-400">
+                          Backend Developer
+                        </div>
+                      </h3>
+                      <ul class="list-none text-xs text-gray-600 w-full px-2">
+                        <li class="flex items-center justify-center">
+                          Experience: 2+ year in Backend Development.
+                        </li>
+                        <li class="flex items-center justify-center">
+                          Current Position: Remote Job
+                        </li>
+                        <li class="flex items-center justify-center">
+                          Education: Islamia College, Peshawar (5th Semester)
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                  <div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500">
+                    <h3 class="text-xl font-bold text-white mb-4">
+                      Yaseen Khan
+                    </h3>
+                    <a href="/profile/yaseen" data-discover="true">
+                      <button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">
+                        View Profile
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style="width: 350px;">
+                <div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto">
+                  <a href="/profile/sameer" data-discover="true">
+                    <div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500">
+                      <div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden">
+                        <img
+                          alt="Sameer Nawab"
+                          class="w-full h-full object-cover rounded-full"
+                          src="/assets/sammer-rm_lTSNX.png"
+                        />
+                      </div>
+                      <h3 class="text-xl font-semibold mt-4 flex flex-col items-center">
+                        <div class="text-lg text-gray-800">Sameer Nawab</div>
+                        <div class="text-sm text-blue-400">Web Designer</div>
+                      </h3>
+                      <ul class="list-none text-xs text-gray-600 w-full px-2">
+                        <li class="flex items-center justify-center">
+                          Experience: 1+ years in Web design
+                        </li>
+                        <li class="flex items-center justify-center">
+                          Current Position: Remote Job
+                        </li>
+                        <li class="flex items-center justify-center">
+                          Education: Software Engineering
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                  <div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500">
+                    <h3 class="text-xl font-bold text-white mb-4">
+                      Sameer Nawab
+                    </h3>
+                    <a href="/profile/sameer" data-discover="true">
+                      <button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">
+                        View Profile
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style="width: 350px;">
+                <div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto">
+                  <a href="/profile/ahmad" data-discover="true">
+                    <div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500">
+                      <div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden">
+                        <img
+                          alt="Ahmad Hussain"
+                          class="w-full h-full object-cover rounded-full"
+                          src="/assets/ahmad-BJz08TUi.jpg"
+                        />
+                      </div>
+                      <h3 class="text-xl font-semibold mt-4 flex flex-col items-center">
+                        <div class="text-lg text-gray-800">Ahmad Hussain</div>
+                        <div class="text-sm text-blue-400">
+                          Social Media Manager
+                        </div>
+                      </h3>
+                      <ul class="list-none text-xs text-gray-600 w-full px-2">
+                        <li class="flex items-center justify-center">
+                          Experience: 1+ year in Social Media Management
+                        </li>
+                        <li class="flex items-center justify-center">
+                          Current Position: Social Media Manager at Tech
+                          Pioneers
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                  <div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500">
+                    <h3 class="text-xl font-bold text-white mb-4">
+                      Ahmad Hussain
+                    </h3>
+                    <a href="/profile/ahmad" data-discover="true">
+                      <button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">
+                        View Profile
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style="width: 350px;">
+                <div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto">
+                  <a href="/profile/eman" data-discover="true">
+                    <div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500">
+                      <div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden">
+                        <img
+                          alt="Eman Gul"
+                          class="w-full h-full object-cover rounded-full"
+                          src="/assets/eman-CjFCbqqH.jpg"
+                        />
+                      </div>
+                      <h3 class="text-xl font-semibold mt-4 flex flex-col items-center">
+                        <div class="text-lg text-gray-800">Eman Gul</div>
+                        <div class="text-sm text-blue-400">Junior HR </div>
+                      </h3>
+                      <ul class="list-none text-xs text-gray-600 w-full px-2">
+                        <li class="flex items-center justify-center">
+                          Experience: 1+ year in HR
+                        </li>
+                        <li class="flex items-center justify-center">
+                          Currunt position: Junior HR at Tech Pioneers
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                  <div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500">
+                    <h3 class="text-xl font-bold text-white mb-4">Eman Gul</h3>
+                    <a href="/profile/eman" data-discover="true">
+                      <button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">
+                        View Profile
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style="width: 350px;">
+                <div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto">
+                  <a href="/profile/saba" data-discover="true">
+                    <div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500">
+                      <div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden">
+                        <img
+                          alt="Saba Gul"
+                          class="w-full h-full object-cover rounded-full"
+                          src="/assets/saba-DoVsE90v.jpg"
+                        />
+                      </div>
+                      <h3 class="text-xl font-semibold mt-4 flex flex-col items-center">
+                        <div class="text-lg text-gray-800">Saba Gul</div>
+                        <div class="text-sm text-blue-400">
+                          Admission Officer
+                        </div>
+                      </h3>
+                      <ul class="list-none text-xs text-gray-600 w-full px-2">
+                        <li class="flex items-center justify-center">
+                          Experience: 1+ year in Admission
+                        </li>
+                        <li class="flex items-center justify-center">
+                          Currunt position: Admission Officer at Tech Pioneers
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                  <div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500">
+                    <h3 class="text-xl font-bold text-white mb-4">Saba Gul</h3>
+                    <a href="/profile/saba" data-discover="true">
+                      <button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">
+                        View Profile
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style="width: 350px;">
+                <div class="relative bg-white h-[386px] w-[240px] mb-20 mt-20 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto">
+                  <a href="/profile/fatimaintern" data-discover="true">
+                    <div class="absolute w-full h-full p-4 flex flex-col justify-center items-center text-center space-y-4 backface-hidden group-hover:rotate-y-180 transition-transform duration-500">
+                      <div class="w-[156px] h-[156px] rounded-full flex items-center justify-center overflow-hidden">
+                        <img
+                          alt="Fatima "
+                          class="w-full h-full object-cover rounded-full"
+                          src="/assets/fatimaintern-BkJTgm5K.jpg"
+                        />
+                      </div>
+                      <h3 class="text-xl font-semibold mt-4 flex flex-col items-center">
+                        <div class="text-lg text-gray-800">Fatima </div>
+                        <div class="text-sm text-blue-400">
+                          social media manager Intern
+                        </div>
+                      </h3>
+                      <ul class="list-none text-xs text-gray-600 w-full px-2">
+                        <li class="flex items-center justify-center">
+                          Experience: 6 months in Social Media Management
+                        </li>
+                        <li class="flex items-center justify-center">
+                          Current Position: Social Media Manager Intern at Tech
+                          Pioneers
+                        </li>
+                      </ul>
+                    </div>
+                  </a>
+                  <div class="absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-[32px] flex flex-col items-center justify-center backface-hidden rotate-y-180 group-hover:rotate-y-0 transition-transform duration-500">
+                    <h3 class="text-xl font-bold text-white mb-4">Fatima </h3>
+                    <a href="/profile/fatimaintern" data-discover="true">
+                      <button class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-100 transition-colors">
+                        View Profile
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-prev swiper-button-disabled"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+              <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+              <span class="swiper-pagination-bullet"></span>
+              <span class="swiper-pagination-bullet"></span>
+              <span class="swiper-pagination-bullet"></span>
+              <span class="swiper-pagination-bullet"></span>
+              <span class="swiper-pagination-bullet"></span>
+              <span class="swiper-pagination-bullet"></span>
+              <span class="swiper-pagination-bullet"></span>
+              <span class="swiper-pagination-bullet"></span>
+              <span class="swiper-pagination-bullet"></span>
+              <span class="swiper-pagination-bullet"></span>
+              <span class="swiper-pagination-bullet"></span>
+              <span class="swiper-pagination-bullet"></span>
+              <span class="swiper-pagination-bullet"></span>
+              <span class="swiper-pagination-bullet"></span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Team
+export default Team;

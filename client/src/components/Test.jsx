@@ -923,8 +923,8 @@ const Test = () => {
               </Swiper>
               
             </div>
+             <div className="swiper-button-prev swiper-button-disabled mr-5 pr-6"></div>
             <div className="swiper-button-next"></div>
-             <div className="swiper-button-prev swiper-button-disabled"></div>
           </div>
                    
         </div>

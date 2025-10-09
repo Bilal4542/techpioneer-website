@@ -28,7 +28,7 @@ const Courses = () => {
               <div
                 className="swiper-slide swiper-slide-active"
                 style="width: 301.667px; margin-right: 30px;">
-                <div className="relative bg-white h-[460px] sm:h-[500px] w-[300px] sm:w-[340px] md:w-[360px] mb-20 mt-10 rounded-[32px] shadow-lg perspective-1000 group cursor-pointer mx-auto">
+                <div className="relative bg-white h-[460px] sm:h-[500px] w-[300px] sm:w-[340px] md:w-[360px] mb-20 mt-10 rounded-[32px]     shadow-lg   perspective-1000 group cursor-pointer mx-auto">
                   <a href="/courses/web-development" data-discover="true">
                     <div className="absolute w-full h-full p-5 flex flex-col justify-start items-center text-center space-y-5 backface-hidden group-hover:rotate-y-180 transition-transform duration-500">
                       <div className="w-[90px] h-[90px] sm:w-[100px] sm:h-[100px] rounded-[28px] bg-blue-300 flex items-center justify-center">

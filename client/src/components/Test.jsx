@@ -17,23 +17,24 @@ import softwaretesting from "../assets/softwaretesting.png";
 import tiktok from "../assets/tiktok.png";
 import trading from "../assets/trading.png";
 import uiux from "../assets/uiux.png";
-import "../button.css";
+import '../App.css'
 
 const Test = () => {
   return (
     <>
       <div id="services">
-        <div className="w-full h-full flex flex-col items-center justify-center bg-gray-100 px-4 sm:px-8 py-10 m-auto">
+        <div className="w-full h-full flex flex-col items-center justify-center bg-gray-100 px-4 sm:px-8 py-10">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold pt-5 mb-8 text-gray-800 text-center">
             Our Courses
           </h1>
-         <div className="flex items-center justify-between w-[100%] m-auto relative text-white">
-          <div style={{ color: "white", fontSize: "24px"  }} className="swiper-button-prev swiper-button-disabled mr-5 pr-6 bg-blue-500 p-4 rounded-2xl hover:bg-blue-400">&#10094;</div>
-          <div style={{ color: "white",  fontSize: "24px"  }} className="swiper-button-next bg-blue-500 p-4 rounded-2xl hover:bg-blue-400">&#10095;</div>
+          <div className="swiper swiper-initialized swiper-horizontal w-full max-w-[1400px] ">
+            {/* navigation button start */}
+         <div className="flex items-center justify-between relative text-white top-6">
+          <div style={{ color: "white", fontSize: "24px", }} className="swiper-button-prev swiper-button-disabled mr-5 pr-6 bg-blue-500 p-4 rounded-2xl hover:bg-blue-400 absolute">&#10094;</div>
+          <div style={{ color: "white",  fontSize: "24px",}} className="swiper-button-next bg-blue-500 p-4 rounded-2xl hover:bg-blue-400 absolute">&#10095;</div>
          </div>
-          <div className="swiper swiper-initialized swiper-horizontal w-full max-w-[1400px] m-auto">
-            
-            <div className="swiper-wrapper w-[100%] m-auto">
+          {/* navigation button end */}
+            <div className="swiper-wrapper ">
               <Swiper
                 slidesPerView={3}
                 pagination={{
@@ -111,7 +112,7 @@ const Test = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div
-                    className="swiper-slide swiper-slide-active"
+                    className="swiper-slide swiper-slide-active "
                     style={{ width: "301.667px", marginRight: "30px" }}
                   >
                     <div className="relative bg-white h-[460px] sm:h-[500px] w-[300px] sm:w-[340px] md:w-[360px] mb-20 mt-10 rounded-[32px]     shadow-lg   perspective-1000 group cursor-pointer mx-auto">

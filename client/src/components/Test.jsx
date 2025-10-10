@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import 'swiper/swiper-bundle.css'
+import "swiper/swiper-bundle.css";
 import webdev from "../assets/webdev.png";
 import appdev from "../assets/appdev.png";
 import aidev from "../assets/aidev.jpg";
@@ -17,19 +17,23 @@ import softwaretesting from "../assets/softwaretesting.png";
 import tiktok from "../assets/tiktok.png";
 import trading from "../assets/trading.png";
 import uiux from "../assets/uiux.png";
-import '../button.css'
-
+import "../button.css";
 
 const Test = () => {
   return (
     <>
       <div id="services">
-        <div className="w-full h-full flex flex-col items-center justify-center bg-gray-100 px-4 sm:px-8 py-10">
+        <div className="w-full h-full flex flex-col items-center justify-center bg-gray-100 px-4 sm:px-8 py-10 m-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold pt-5 mb-8 text-gray-800 text-center">
             Our Courses
           </h1>
-          <div className="swiper swiper-initialized swiper-horizontal w-full max-w-[1400px]">
-            <div className="swiper-wrapper">
+         <div className="flex items-center justify-between w-[100%] m-auto relative text-white">
+          <div style={{ color: "white", fontSize: "24px"  }} className="swiper-button-prev swiper-button-disabled mr-5 pr-6 bg-blue-500 p-4 rounded-2xl hover:bg-blue-400">&#10094;</div>
+          <div style={{ color: "white",  fontSize: "24px"  }} className="swiper-button-next bg-blue-500 p-4 rounded-2xl hover:bg-blue-400">&#10095;</div>
+         </div>
+          <div className="swiper swiper-initialized swiper-horizontal w-full max-w-[1400px] m-auto">
+            
+            <div className="swiper-wrapper w-[100%] m-auto">
               <Swiper
                 slidesPerView={3}
                 pagination={{
@@ -37,11 +41,11 @@ const Test = () => {
                 }}
                 modules={[Pagination, Navigation]}
                 navigation={{
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        }}
-                className="mySwiper"
-              >
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev",
+                }}
+                className="mySwiper">
+                 
                 <SwiperSlide>
                   <div
                     className="swiper-slide swiper-slide-active"
@@ -872,16 +876,11 @@ const Test = () => {
                           <h3 className="text-lg sm:text-xl font-semibold text-gray-800 leading-tight">
                             Software Project Management
                           </h3>
-                          <ul
-                            classNameSoftware
-                            Project
-                            Management="list-none text-xs sm:text-sm text-gray-600 w-full px-2 space-y-2 text-left"
-                          >
+                          <ul className="list-none text-xs sm:text-sm text-gray-600 w-full px-2 space-y-2 text-left">
                             <li className="flex items-start">
                               <span className="mr-2 text-blue-500">●</span>
                               <span>
-                                Lead software projects from planning to
-                                delivery.
+                                 Lead software projects from planning to delivery.
                               </span>
                             </li>
                             <li className="flex items-start">
@@ -915,18 +914,14 @@ const Test = () => {
                             View Details
                           </button>
                         </a>
-              
                       </div>
                     </div>
                   </div>
                 </SwiperSlide>
               </Swiper>
-              
             </div>
-             <div className="swiper-button-prev swiper-button-disabled mr-5 pr-6"></div>
-            <div className="swiper-button-next"></div>
+            
           </div>
-                   
         </div>
       </div>
     </>
